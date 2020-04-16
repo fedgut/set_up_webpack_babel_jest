@@ -1,0 +1,32 @@
+{
+  "name": "set_up_webpack_babel_jest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch -o"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fedgut/set_up_webpack_babel_jest.g.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fedgut/set_up_webpack_babel_jest.g/issues"
+  },
+  "homepage": "https://github.com/fedgut/set_up_webpack_babel_jest.g#readme",
+  "dependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "babel-loader": "^8.1.0",
+    "babel-polyfill": "^6.26.0",
+    "css-loader": "^3.5.2",
+    "file-loader": "^6.0.0",
+    "jest": "^25.3.0",
+    "style-loader": "^1.1.4",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
+}
